@@ -1,5 +1,5 @@
 
-// 将时间戳转换为日期时间
+// 将时间戳转换为日期时间, 将时间戳传入函数内
 
 function timeStamp(timeStr) {
   var date = new Date(timeStr * 1000); //时间戳如果是10位 *1000, 如果是13位不用 * 1000
